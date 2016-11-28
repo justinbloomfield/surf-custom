@@ -5,6 +5,7 @@ include config.mk
 
 SRC = surf.c
 OBJ = ${SRC:.c=.o}
+PREFIX = /usr
 
 all: options surf
 
